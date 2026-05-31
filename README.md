@@ -28,30 +28,7 @@
             }
         }
     </script>
-    <style>
-        body {
-            font-family: 'Tajawal', sans-serif;
-            scroll-behavior: smooth;
-        }
-        .gradient-text {
-            background: linear-gradient(to left, #fbbf24, #fcd34d);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .glass-panel {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        @media print {
-            body {
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            nav { display: none !important; }
-            section { page-break-inside: avoid; }
-        }
-    </style>
+    
 </head>
 <body class="bg-brand-darker text-brand-light antialiased selection:bg-brand-gold selection:text-brand-darker">
 
